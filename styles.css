@@ -1,0 +1,86 @@
+/* Styling Navbar */
+.navbar {
+  background-color: #343a40;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 24px;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Styling Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  position: relative;
+  z-index: 1;
+}
+
+.greeting {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.date-time {
+  font-size: 18px;
+  margin-right: auto;
+}
+
+/* Styling Carousel */
+.carousel {
+  margin: 20px;
+}
+
+.carousel-item img {
+  width: 50%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Styling Card */
+.card {
+  margin: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Styling Footer */
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Additional Styling for Card Image Top */
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
